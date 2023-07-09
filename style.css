@@ -14,6 +14,20 @@ body{
     border: 0;
     padding: 15px 35px;
 }
+.title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.description{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    
+}
 /* header */
 .header{
     background-color: #f8d1b5;
@@ -70,4 +84,12 @@ nav a{
     font-size:85px;
     font-weight: 700;
     margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* about section */
+.about{
+    padding:130px;
+    border-radius:10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
