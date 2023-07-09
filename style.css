@@ -86,10 +86,34 @@ nav a{
     margin-top: 5px;
     margin-bottom: 20px;
 }
+/* main  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section */
 .about{
     padding:130px;
     border-radius:10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+/* info */
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    margin-bottom: 5px;
+}
+.info-description{
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: Dark 02;
+    font-weight: bold;
 }
