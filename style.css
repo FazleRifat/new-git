@@ -231,12 +231,28 @@ footer{
 /* responsive */
 /* small device */
 @media screen and (max-width:576px) {
-    .skill-container,.resume-container, footer{
+    .header{
+        background-image: none;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .banner,.skill-container,.resume-container,.info-container,nav, footer, nav >ul{
         flex-direction: column;
+    }
+    .about{
+        padding: 60px;
     }
     p{
         flex-wrap: wrap;
     }
+    .primary-btn{
+        margin-bottom: 15px;
+    }
+    nav>ul{
+        gap: 20px;
+    }
+    .banner,
     #what-i-do{
         padding: 20px;
     }
